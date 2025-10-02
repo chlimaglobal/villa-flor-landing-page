@@ -161,6 +161,12 @@ Mensagem: ${formData.mensagem}`
             Você já imaginou morar em uma rua totalmente privativa no Eusébio? 
             Conforto, segurança e negociação flexível em um dos locais mais valorizados da região.
           </p>
+          <div className="mb-8 max-w-3xl mx-auto">
+            <video controls className="w-full rounded-lg shadow-lg">
+              <source src="/assets/video_villa_flor.mp4" type="video/mp4" />
+              Seu navegador não suporta o elemento de vídeo.
+            </video>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
